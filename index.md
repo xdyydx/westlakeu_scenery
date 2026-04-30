@@ -15,7 +15,7 @@ title: 我的短镜头库
   <table class="video-gallery">
     <thead>
       <tr>
-        <th width="45%">视频预览</th>
+        <th width="45%">视频预览（预览右下三点下载）</th>
         <th width="55%">内容描述</th>
       </tr>
     </thead>
