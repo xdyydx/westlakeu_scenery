@@ -14,18 +14,18 @@ body {
 
 /* 全屏蓝色标题栏 */
 .page-header {
-  width: 100% !important;
-  background: #165DFF !important;
-  padding: 40px 20px !important;
-  text-align: center !important;
-  margin-bottom: 40px !important;
+  width: 100%;
+  background: #1350df;
+  padding: 40px 20px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .page-header h1 {
-  color: #f28f15 !important;
-  font-size: 32px !important;
-  font-weight: 600 !important;
-  margin: 0 !important;
+  color: #ec8620;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0;
 }
 
 /* 居中内容容器 */
@@ -49,8 +49,8 @@ body {
 .video-gallery th,
 .video-gallery td {
   padding: 24px;
-  vertical-align: middle !important;
-  text-align: center !important;
+  vertical-align: middle;
+  text-align: center;
 }
 
 /* 表头样式 */
@@ -63,13 +63,13 @@ body {
 
 /* 表格分隔线 */
 .video-gallery thead tr {
-  border-bottom: 2px solid #e5e6eb !important;
+  border-bottom: 2px solid #e5e6eb;
 }
 .video-gallery tbody tr {
-  border-bottom: 1px solid #f2f3f5 !important;
+  border-bottom: 1px solid #f2f3f5;
 }
 .video-gallery tbody tr:last-child {
-  border-bottom: none !important;
+  border-bottom: none;
 }
 
 /* 视频预览框 */
@@ -81,7 +81,7 @@ body {
   max-width: 100%;
 }
 
-/* 描述文字（两列布局下可以稍微大一点） */
+/* 描述文字 */
 .desc-cell {
   font-size: 17px;
   color: #4e5969;
