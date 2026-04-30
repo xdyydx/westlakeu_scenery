@@ -1,0 +1,6 @@
+# _data/videos.yml
+- filename: "test-001.mp4"
+  description: "测试：窗外随手拍"
+- filename: "test-002.mp4"
+  description: "测试：窗外随手拍2"
+# 后续只需在此处添加新视频的条目即可

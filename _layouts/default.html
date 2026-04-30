@@ -1,0 +1,18 @@
+<!-- _layouts/default.html -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    
+    <!-- 关键：在这里统一引用 CSS，所有使用此布局的页面都会加载 -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+    <div class="container">
+        <!-- 这里是页面内容的“插槽”，子页面的内容会渲染在这里 -->
+        {{ content }}
+    </div>
+</body>
+</html>
