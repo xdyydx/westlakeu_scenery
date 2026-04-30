@@ -14,17 +14,17 @@ body {
 
 /* 全屏蓝色标题栏 */
 .page-header {
-  width: 100%;
-  background: #165DFF;
-  padding: 40px 20px;
-  text-align: center;
-  margin-bottom: 40px;
+  width: 100% !important;
+  background: #165DFF !important;
+  padding: 40px 20px !important;
+  text-align: center !important;
+  margin-bottom: 40px !important;
 }
 
 .page-header h1 {
-  color: #ffaa17;
-  font-size: 32px;
-  font-weight: 600;
+  color: #ffaa17 !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
 }
 
 /* 居中内容容器，控制左右间距 */
@@ -42,6 +42,13 @@ body {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.06);
+}
+
+.video-gallery th,
+.video-gallery td {
+  padding: 24px;
+  vertical-align: middle !important;
+  text-align: center !important; /* 水平居中核心代码 */
 }
 
 /* 表头样式 */
@@ -63,7 +70,7 @@ body {
 /* 表格分隔线（严格按你的要求） */
 /* 表头和内容之间的分隔线 */
 .video-gallery thead tr {
-  border-bottom: 2px solid #e5e6eb;
+  border-bottom: 2px solid #000000;
 }
 /* 每行内容之间的分隔线 */
 .video-gallery tbody tr {
