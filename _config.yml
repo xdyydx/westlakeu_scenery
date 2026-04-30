@@ -6,3 +6,8 @@ cdn_username: "xdyydx" #你的GitHub用户名
 cdn_repo: "westlakeu_scenery" #你的仓库名
 cdn_branch: "main" #分支名
 markdown: kramdown
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
