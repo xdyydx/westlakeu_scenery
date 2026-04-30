@@ -1,4 +1,4 @@
-/* 全局初始化，消除浏览器默认样式 */
+/* 全局初始化 */
 * {
   margin: 0;
   padding: 0;
@@ -22,12 +22,13 @@ body {
 }
 
 .page-header h1 {
-  color: #ffaa17 !important;
+  color: #f28f15 !important;
   font-size: 32px !important;
   font-weight: 600 !important;
+  margin: 0 !important;
 }
 
-/* 居中内容容器，控制左右间距 */
+/* 居中内容容器 */
 .content-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -44,41 +45,31 @@ body {
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.06);
 }
 
+/* 表头+单元格全居中 */
 .video-gallery th,
 .video-gallery td {
   padding: 24px;
   vertical-align: middle !important;
-  text-align: center !important; /* 水平居中核心代码 */
+  text-align: center !important;
 }
 
 /* 表头样式 */
 .video-gallery th {
-  padding: 20px 24px;
-  text-align: left;
   font-size: 16px;
   font-weight: 600;
   color: #1d2129;
   background-color: #f7f8fa;
 }
 
-/* 单元格样式 */
-.video-gallery td {
-  padding: 24px;
-  vertical-align: middle;
-}
-
-/* 表格分隔线（严格按你的要求） */
-/* 表头和内容之间的分隔线 */
+/* 表格分隔线 */
 .video-gallery thead tr {
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #e5e6eb !important;
 }
-/* 每行内容之间的分隔线 */
 .video-gallery tbody tr {
-  border-bottom: 1px solid #f2f3f5;
+  border-bottom: 1px solid #f2f3f5 !important;
 }
-/* 去掉最后一行的分隔线 */
 .video-gallery tbody tr:last-child {
-  border-bottom: none;
+  border-bottom: none !important;
 }
 
 /* 视频预览框 */
@@ -86,29 +77,15 @@ body {
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   display: block;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
-/* 描述文字 */
+/* 描述文字（两列布局下可以稍微大一点） */
 .desc-cell {
-  font-size: 16px;
+  font-size: 17px;
   color: #4e5969;
-}
-
-/* 下载按钮 */
-.download-btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #165DFF;
-  color: #ffffff;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: 500;
-  transition: background-color 0.3s ease;
-  white-space: nowrap;
-}
-
-.download-btn:hover {
-  background-color: #0e42d2;
+  line-height: 1.8;
 }
 
 /* 移动端适配 */
