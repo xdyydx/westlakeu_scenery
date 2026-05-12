@@ -1,64 +1,62 @@
 # _data/videos.yml
-- filename: "DJI_20260506213026_H3H4street1.MP4"
+- filename: "DJI_20260506213026_H3H4street1.mp4"
   description: |
     H3H4间道 夜景
     设备：大疆 Pocket 3
     时间：2026/05/06, 21:30
-- filename: "DJI_20260506213040_H3H4street2.MP4"
+- filename: "DJI_20260506213040_H3H4street2.mp4"
   description: |
     H3H4间道 夜景
     设备：大疆 Pocket 3
     时间：2026/05/06, 21:30
-- filename: "DJI_20260506215800_1stgatewater.MP4"
+- filename: "DJI_20260506215800_1stgatewater.mp4"
   description: |
     大门 水映学术环
     设备：大疆 Pocket 3
     时间：2026/05/06, 21:58
-- filename: "DJI_20260511180635_H4flower.MP4"
+- filename: "DJI_20260511180635_H4flower.mp4"
   description: |
     H4 夕阳红月季
     设备：大疆 Pocket 3
     时间：2026/05/11, 18:06
-- filename: "DJI_20260512154351_gymflower1.MP4"
+- filename: "DJI_20260512154351_gymflower1.mp4"
   description: |
     体育馆前 紫娇花
     设备：大疆 Pocket 3
     时间：2026/05/12, 15:43
-- filename: "DJI_20260512154543_gymflower2.MP4"
+- filename: "DJI_20260512154543_gymflower2.mp4"
   description: |
     体育馆前 紫娇花
     设备：大疆 Pocket 3
     时间：2026/05/12, 15:45
-- filename: "DJI_20260512154633_gymflower4.MP4"
+- filename: "DJI_20260512154633_gymflower4.mp4"
   description: |
     体育馆前 紫娇花
     设备：大疆 Pocket 3
     时间：2026/05/12, 15:46
-- filename: "DJI_20260512154927_riverCgym1.MP4"
+- filename: "DJI_20260512154927_riverCgym1.mp4"
   description: |
     体育馆到中心岛 河望H3 
     设备：大疆 Pocket 3
     时间：2026/05/12, 15:49
-- filename: "DJI_20260512154958_riverCgym1.MP4"
+- filename: "DJI_20260512154958_riverCgym1.mp4"
   description: |
     体育馆到中心岛 河望H3 
     设备：大疆 Pocket 3
     时间：2026/05/12, 15:49
-- filename: "DJI_20260512155411_bridge1A2.MP4"
+- filename: "DJI_20260512155411_bridge1A2.mp4"
   description: |
     A2旁桥 花簇肩 
     设备：大疆 Pocket 3
     时间：2026/05/12, 15:54
-- filename: "DJI_20260512155659_bridge3river1.MP4"
+- filename: "DJI_20260512155659_bridge3river1.mp4"
   description: |
     C18旁桥 河景 
     设备：大疆 Pocket 3
     时间：2026/05/12, 15:56
-- filename: "DJI_20260512155722_bridge3river2.MP4"
+- filename: "DJI_20260512155722_bridge3river2.mp4"
   description: |
     C18旁桥 河畔 
     设备：大疆 Pocket 3
     时间：2026/05/12, 15:57
-- filename: "test-002.mp4"
-  description: "测试：窗外随手拍2"
 # 后续只需在此处添加新视频的条目即可

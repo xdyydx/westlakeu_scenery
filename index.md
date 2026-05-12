@@ -7,6 +7,7 @@ title: 我的短镜头库
 
 <div class="page-header">
   <h1>🎬 我的短镜头库</h1>
+  <h3>部分视频经过压缩，原视频请在<a href="https://github.com/xdyydx/westlakeu_scenery">github仓库</a>中的Release里下载
 </div>
 
 <!-- 居中内容容器（前后必须有空行） -->
