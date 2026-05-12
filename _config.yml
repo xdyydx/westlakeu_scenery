@@ -6,6 +6,10 @@ cdn_username: "xdyydx" #你的GitHub用户名
 cdn_repo: "westlakeu_scenery" #你的仓库名
 cdn_branch: "main" #分支名
 markdown: kramdown
+# 日志集合配置（添加到文件末尾）
+collections:
+  diaries:
+    output: false  # 不需要为每个日志生成单独页面
 defaults:
   - scope:
       path: ""

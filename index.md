@@ -29,7 +29,7 @@ title: 我的短镜头库
             浏览器不支持视频播放
           </video>
         </td>
-        <td class="desc-cell">{{ video.description }}</td>
+        <td class="desc-cell">{{ video.description | newline_to_br }}</td>
       </tr>
       {% endfor %}
     </tbody>

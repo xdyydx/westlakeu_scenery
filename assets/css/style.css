@@ -88,6 +88,65 @@ body {
   line-height: 1.8;
 }
 
+/* ======================
+   更新日志时间线样式
+====================== */
+.diary-list {
+  width: 100%;
+}
+
+.diary-item {
+  margin-bottom: 48px;
+}
+
+/* 左上角时间 */
+.diary-date {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1d2129;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+/* 蓝色小圆+绿色分割线 */
+.diary-divider {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.blue-dot {
+  width: 12px;
+  height: 12px;
+  background-color: #165DFF;  /* 和标题栏同色蓝色 */
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.green-line {
+  flex: 1;
+  height: 2px;
+  background-color: #52c41a;  /* 绿色分割线 */
+  margin-left: 8px;
+}
+
+/* 日志内容（左边和绿色线起点对齐） */
+.diary-content {
+  margin-left: 20px;  /* 12px小圆 + 8px间距 = 20px，完美对齐 */
+  font-size: 16px;
+  line-height: 1.8;
+  color: #4e5969;
+  text-align: left;
+}
+
+.diary-content p {
+  margin-bottom: 12px;
+}
+
+.diary-content p:last-child {
+  margin-bottom: 0;
+}
+
 /* 移动端适配 */
 @media (max-width: 768px) {
   .video-gallery thead {
