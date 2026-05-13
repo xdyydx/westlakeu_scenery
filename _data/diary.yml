@@ -1,11 +1,16 @@
 # _data/diary.yml 完整代码
 # 最新的日志写在最上面
+- date: "2026 May 13th"
+  content: |
+    由炽热爱意滋生的烦闷
+    
 - date: "2026 May 12th"
   content: |
     你对喜欢的非人事物会产生致狂程度的热恋吗？
-    
+
     迷迭香是为了帮助回忆，信仰是为了虚幻之人。
 
-- date: "2026 May 13th"
+- date: "2026 May 12th"
   content: |
     喵喵喵？
+
