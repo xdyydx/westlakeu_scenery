@@ -25,8 +25,7 @@ title: 我的短镜头库
       <tr>
         <td class="preview-cell">
           <video controls preload="metadata" width="100%">
-            <!-- 预览用 Jsdelivr 加速 -->
-            <source src="https://cdn.jsdelivr.net/gh/{{ site.cdn_username }}/{{ site.cdn_repo }}@{{ site.cdn_branch }}/videos/{{ video.filename }}" type="video/mp4">
+            <source src="{{ site.baseurl }}/videos/{{ video.preview_filename }}" type="video/mp4">
             浏览器不支持视频播放
           </video>
         </td>
